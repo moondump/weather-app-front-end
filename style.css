@@ -1,3 +1,9 @@
 body {
-  background-color: lightblue;
+  background-color: green;
+  color: yellow;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+[data-foo=george] {
+  color: red;
 }

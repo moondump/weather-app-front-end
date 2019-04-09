@@ -9,7 +9,8 @@
 </head>
 <body>
   <h1>Fun with APIs!!!!!!!!</h1>
-  <form>
+  <p id="todays-date"></p>
+  <form id="location-form">
     <fieldset>
       Location:<input id="location" type="text" name="location">
       <input id="location-submit" type="submit" value="Submit">
@@ -19,6 +20,36 @@
 
   </main>
 
-  <script src="index.js"></script>
+  <div data-foo="bruce">bruce</div>
+  <div data-foo="trent">trent</div>
+  <div data-foo="alicia"alicia></div>
+  <div data-foo="katie">katie</div>
+  <div data-foo="george">george</div>
+
+  <ul id="states">
+    <div class="state">
+     <div class="name">Washington</div>
+     <ul class="stats">
+       <li>Population: 999,222</li>
+       <li>Motto: Evergreen State</li>
+     </ul>
+    </div>
+    <div class="state">
+     <div class="name">Oregon</div>
+     <ul class="stats">
+       <li>Population: 899,222</li>
+       <li>Motto: Lotto State</li>
+     </ul>
+    </div>
+    <div class="state">
+     <div class="name">California</div>
+     <ul class="stats">
+       <li>Population: 999,222</li>
+       <li>Motto: Sunshine State</li>
+     </ul>
+    </div>
+  </ul>
+
+  <script defer src="index.js"></script>
 </body>
 </html>
